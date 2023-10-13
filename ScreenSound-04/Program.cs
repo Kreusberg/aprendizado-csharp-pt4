@@ -12,7 +12,8 @@ using (HttpClient client = new())
         //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
         //LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
         //LinqFilter.FiltrarArtistasPorGeneroMusical(musicas, "pop");
-        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michael Jackson");
+        //LinqFilter.FiltrarMusicasDeUmArtista(musicas, "Michael Jackson");
+        LinqFilter.FiltrarMusicasPeloAno(musicas, 2014);
 
     }
     catch (Exception ex)
